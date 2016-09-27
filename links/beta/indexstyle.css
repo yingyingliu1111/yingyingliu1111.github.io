@@ -1,0 +1,169 @@
+body{
+background-color:#fbe31a;
+margin:0;
+}
+
+#contain{
+position: absolute;
+margin: auto;
+width: 80%;
+height: 600px;
+left:10%;
+top:15%;
+}
+
+/* ------------------------funtion box-----------------------------------------*/
+#clickable-boxes{
+z-index:3;
+position: absolute;
+}
+
+#blue{
+z-index:3;
+width:15px;
+height:15px;
+background-color:#7FCAF0;
+margin:10px;
+}
+
+#red{
+z-index:3;
+width:15px;
+height:15px;
+background-color: #f15d4d;
+margin:10px;	
+}
+
+#black{
+z-index:3;
+width:15px;
+height:15px;
+background-color:black;
+margin:10px;	
+}
+
+#cover{
+position: absolute;
+z-index:2;
+position: absolute;
+background-color:#fbe31a;
+height:100%;
+width:20%;
+}
+
+/* ------------------------blue box-----------------------------------------*/
+#invisible-box{
+}
+
+#blue-box{
+display: inline-block;
+vertical-align: top;
+width: 20%;
+}
+
+#one-pm-blue-one{
+position:relative;
+left: -600px;
+}
+
+#one-pm-blue-one img{
+margin-bottom: 25px;
+width: 100%;
+}
+
+#one-pm-blue-two{
+position:relative;
+left: -600px;
+}
+
+#one-pm-blue-two img{
+width: 100%;
+}
+
+/* ------------------------red 1box-----------------------------------------*/
+#one-pm-red-one{
+display: inline-block;
+vertical-align: top;
+width: 25%;
+position:relative;
+left: -600px;
+}
+
+#one-pm-red-one img{
+position: relative;
+width: 100%;
+margin-left: 18px;
+}
+
+/* ------------------------red box 2-3 -----------------------------------------*/
+
+#red-boxes{
+display: inline-block;
+vertical-align: top;
+width: 20%;
+margin-left: 40px;
+left: -600px;
+}
+
+#one-pm-red-two{
+position:relative;
+left: -600px;
+}
+
+#one-pm-red-two img{
+position: relative;
+width: 100%;
+margin-bottom: 25px;
+}
+
+#one-pm-red-three{
+position:relative;
+left: -600px;
+
+}
+
+#one-pm-red-three img{
+position: relative;
+width: 100%;
+}
+
+/* ------------------------black text-----------------------------------------*/
+
+#css-typing{
+display: inline-block;
+vertical-align: top;
+position:absolute;
+display: none;
+z-index:10;
+font-size:50px;
+letter-spacing: 10;
+left: 130px;
+font-family: sans-serif;
+font-weight: bold;
+width: 30em;
+white-space:nowrap;
+overflow:hidden;
+-webkit-animation: type 5s steps(50, end);
+animation: type 5s steps(50, end);
+}
+
+@keyframes type{
+from { width: 0; }
+}
+
+@-webkit-keyframes type{
+from { width: 0; }
+}
+
+/* ------------------------timer-----------------------------------------*/
+
+#timer{
+font-size:18px;
+font-family: sans-serif;
+font-weight: bolder;
+letter-spacing:2px;
+position: fixed;
+right: 10%;
+bottom: 15%;
+}
+

@@ -13,9 +13,6 @@ img{
     padding-left: 80px;
     display: inline-block;
 }
-#big-text{
-	text-align: left;
-}
 #links{
 	padding-top: 30px;
 	padding-left: 80px;
@@ -67,7 +64,7 @@ a:link {
     text-decoration: none;
 }
 a:visited {
-    color:darkred;
+    color: gray;
     text-decoration: none;
 }
 a:hover {
