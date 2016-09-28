@@ -1,0 +1,339 @@
+body{
+background-color:#f15d4d;
+margin:0;
+}
+
+#contain{
+padding-top: 50px;
+position: absolute;
+margin: auto;
+width: 95%;
+height: 600px;
+left:2%;
+top:2%;
+}
+
+/* ------------------------funtion box-----------------------------------------*/
+#clickable-boxes{
+z-index:3;
+position: absolute;
+}
+
+#black{
+z-index:3;
+width:15px;
+height:15px;
+background-color: black;
+margin:10px;	
+}
+
+#black:hover{
+border-width: 2px;
+border-style: solid;
+border-color: black;
+}
+
+#blue{
+z-index:3;
+width:15px;
+height:15px;
+background-color:#7FCAF0;
+margin:10px;
+}
+
+#blue:hover{
+border-width: 2px;
+border-style: solid;
+border-color: #7FCAF0;
+}
+
+#yellow{
+z-index:3;
+width:15px;
+height:15px;
+background-color: yellow;
+margin:10px;	
+}
+
+#yellow:hover{
+border-width: 2px;
+border-style: solid;
+border-color: yellow;
+}
+/*
+#light-yellow{
+width:15px;
+height:15px;
+background-color: lightyellow;
+margin:10px;
+z-index:99;
+position:absolute;
+}
+*/
+
+/* ------------------------img boxes-----------------------------------------*/
+
+#elevenpm-line{
+width: 55%;
+position: absolute;
+z-index: 12;
+left:-90%;
+top:30px;
+}
+
+#elevenpm-line img{
+position: relative;
+width: 100%;
+}
+
+#elevenpm-one{
+width: 12%;
+position: relative;
+z-index: 11;
+left:-50%;
+top:200px;
+}
+
+#elevenpm-one img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+#elevenpm-two{
+width: 5%;
+position: relative;
+z-index: 11;
+left:-100%;
+top:130px;
+}
+
+#elevenpm-two img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+#elevenpm-three{
+width: 15%;
+position: relative;
+z-index: 11;
+left:-40%;
+top:-150px;
+}
+
+#elevenpm-three img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+#elevenpm-four{
+width: 10%;
+position: relative;
+z-index: 11;
+left:-70%;
+top:-100px;
+}
+
+#elevenpm-four img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+
+#elevenpm-six{
+width: 10%;
+position: absolute;
+z-index: 15;
+left:-140%;
+top:-40px;
+}
+
+#elevenpm-six img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+#elevenpm-seven{
+width: 10%;
+position: absolute;
+z-index: 9;
+left:-80%;
+top:60px;
+}
+
+#elevenpm-seven img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+#elevenpm-eight{
+width: 5%;
+position: relative;
+z-index: 11;
+left:-50%;
+top:-50px;
+}
+
+#elevenpm-eight img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+#elevenpm-nine{
+width: 9%;
+position: absolute;
+z-index: 15;
+left:-190%;
+top:60px;
+}
+
+#elevenpm-nine img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+#elevenpm-ten{
+width: 5%;
+position: relative;
+z-index: 11;
+left:-160%;
+top:-160px;
+}
+
+#elevenpm-ten img{
+position: relative;
+width: 100%;
+}
+
+#elevenpm-eleven{
+width: 3%;
+position: relative;
+z-index: 11;
+left:-100%;
+top:-260px;
+}
+
+#elevenpm-eleven img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+#elevenpm-tewlf{
+width: 20%;
+position: relative;
+z-index: 11;
+left:-80%;
+top:-460px;
+}
+
+#elevenpm-tewlf img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+#elevenpm-fourteen{
+width: 5%;
+position: relative;
+z-index: 11;
+left:-80%;
+top:-460px;
+}
+
+#elevenpm-fourteen img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+#elevenpm-fifteen{
+width: 5%;
+position: relative;
+z-index: 11;
+left:-100%;
+top:-560px;
+}
+
+#elevenpm-fifteen img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+#elevenpm-seventeen{
+position: relative;
+width: 5%;
+z-index: 11;
+left:-60%;
+top:-960px;
+}
+
+#elevenpm-seventeen img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+#elevenpm-eighteen{
+position: relative;
+width: 10%;
+z-index: 11;
+left:-80%;
+top:-960px;
+}
+
+#elevenpm-eighteen img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+#elevenpm-nighteen{
+position: relative;
+width: 2%;
+z-index: 11;
+left:-90%;
+top:-960px;
+}
+
+#elevenpm-nighteen img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+/* ------------------------timer-----------------------------------------*/
+
+#scanner {
+    padding-left:0px;
+    border-right:1px solid #ddd;
+    height: 100%;
+    position: absolute;
+    top:0px;
+    background-color: #fdffda;
+    width: 20px;
+    left: -20px;
+    z-index:25;
+    color:#000;
+}
+
+/* ------------------------timer-----------------------------------------*/
+
+#timer{
+font-size:18px;
+font-family: sans-serif;
+font-weight: bolder;
+letter-spacing:2px;
+position: fixed;
+right: 10%;
+bottom: 15%;
+}
+

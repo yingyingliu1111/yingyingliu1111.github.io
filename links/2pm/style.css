@@ -1,0 +1,123 @@
+body{
+background-color:#fbe31a;
+margin:0;
+}
+
+#contain{
+font-size:0;
+position: absolute;
+width: 94%;
+left:4%;
+top:5%;
+}
+
+/* ------------------------clickable box------------------------------------*/
+
+#clickable-boxes{
+z-index:3;
+position: absolute;
+}
+
+#red{
+z-index:3;
+width:15px;
+height:15px;
+background-color: #f15d4d;
+margin:10px;	
+}
+
+#red:hover{
+border-width: 2px;
+border-style: solid;
+border-color: #f15d4d;
+}
+
+#black{
+z-index:3;
+width:15px;
+height:15px;
+background-color:black;
+margin:10px;	
+}
+
+#black:hover{
+border-width: 2px;
+border-style: solid;
+border-color: black;
+}
+
+#cover{
+position: absolute;
+z-index:2;
+height:100%;
+width:20%;
+}
+
+
+/* ------------------------line two-----------------------------------------*/
+
+table{
+width: 100%;
+}
+
+th{
+position: relative;
+width: 3%;
+left: -150%;
+}
+
+th img{
+width: 100%;
+}
+
+td{
+position: relative;
+width: 3%;
+left: -150%;
+}
+
+td img{
+width: 100%;
+}
+
+
+/* ------------------------black text-----------------------------------------*/
+
+#css-typing{
+display: none;
+position:absolute;
+z-index:10;
+font-size:123px;
+letter-spacing: 10;
+left: 60px;
+top:-10px;
+font-family: sans-serif;
+font-weight: bold;
+width: 30em;
+white-space:nowrap;
+overflow:hidden;
+-webkit-animation: type 5s steps(50, end);
+animation: type 5s steps(50, end);
+}
+
+@keyframes type{
+from { width: 0; }
+}
+
+@-webkit-keyframes type{
+from { width: 0; }
+}
+
+
+/* ------------------------timer-----------------------------------------*/
+
+#timer{
+font-size:18px;
+font-family: sans-serif;
+font-weight: bolder;
+letter-spacing:2px;
+position: fixed;
+right: 10%;
+bottom: 15%;
+}
+

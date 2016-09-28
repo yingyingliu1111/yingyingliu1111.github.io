@@ -1,0 +1,193 @@
+body{
+background-color:#fbe31a;
+margin:0;
+}
+
+#contain{
+position: absolute;
+margin: auto;
+width: 80%;
+height: 600px;
+left:10%;
+top:15%;
+}
+
+/* ------------------------funtion box-----------------------------------------*/
+#clickable-boxes{
+z-index:3;
+position: absolute;
+}
+
+#blue{
+z-index:3;
+width:15px;
+height:15px;
+background-color:#7FCAF0;
+margin:10px;
+}
+
+#blue:hover{
+border-width: 2px;
+border-style: solid;
+border-color: #7FCAF0;
+}
+
+#red{
+z-index:3;
+width:15px;
+height:15px;
+background-color: #f15d4d;
+margin:10px;	
+}
+
+#red:hover{
+border-width: 2px;
+border-style: solid;
+border-color: #f15d4d;
+}
+
+#cover{
+background-color:#fbe31a;
+position: absolute;
+z-index:2;
+position: absolute;
+height:100%;
+width:20%;
+}
+
+/* ------------------------img boxes-----------------------------------------*/
+#invisible-box{
+}
+
+#five-pm-five{
+left:-110px;
+width: 3%;
+position: relative;
+}
+
+#five-pm-five img{
+margin-bottom: 10px;
+position: relative;
+width: 100%;
+}
+
+#five-pm-two{
+left:-610px;
+width: 3%;
+position: relative;
+}
+
+#five-pm-two img{
+margin-bottom: 20px;
+position: relative;
+width: 100%;}
+
+#five-pm-css{
+width: 20%;
+top:10px;
+left:-390px;
+position: relative;
+}
+
+#five-pm-css img{
+position: relative;
+width: 100%;
+margin-bottom: 20px;
+}
+
+#five-pm-six{
+width: 3%;
+position: relative;
+left:-490px;
+}
+
+#five-pm-six img{
+position: relative;
+margin-bottom: 30px;
+width: 100%;
+}
+
+#five-pm-eight{
+width: 3%;
+position: relative;
+left:-530px;
+}
+
+#five-pm-eight img{
+position: relative;
+margin-bottom: 20px;
+width: 100%;
+}
+
+#five-pm-one{
+left:-710px;
+width: 3%;
+position: relative;
+}
+
+#five-pm-one img{
+position: relative;
+width: 100%;
+}
+
+#five-pm-three{
+width: 3%;
+position: relative;
+left:-300px;
+}
+
+#five-pm-three img{
+position: relative;
+width: 100%;
+}
+
+#five-pm-four{
+width: 3%;
+position: relative;
+left:-410px;
+}
+
+#five-pm-four img{
+position: relative;
+width: 100%;
+margin-bottom: 20px;
+}
+
+#five-pm-seven{
+width: 3%;
+position: relative;
+top:50px;
+left:-10px;
+}
+
+#five-pm-seven img{
+position: relative;
+width: 100%;
+margin-bottom: 20px;
+}
+
+#five-pm-html{
+width: 30%;
+top:-290px;
+left:-385px;
+position: relative;
+}
+
+#five-pm-html img{
+position: relative;
+width: 100%;}
+
+
+
+/* ------------------------timer-----------------------------------------*/
+
+#timer{
+font-size:18px;
+font-family: sans-serif;
+font-weight: bolder;
+letter-spacing:2px;
+position: fixed;
+right: 10%;
+bottom: 15%;
+}
+

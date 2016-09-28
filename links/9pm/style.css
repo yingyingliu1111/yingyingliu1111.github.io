@@ -1,0 +1,138 @@
+body{
+background-color:#7FCAF0;
+margin:0;
+}
+
+#contain{
+position: absolute;
+margin: auto;
+width: 70%;
+height: 600px;
+left:15%;
+top:15%;
+}
+
+/* ------------------------funtion box-----------------------------------------*/
+#clickable-boxes{
+z-index:3;
+position: absolute;
+}
+
+#yellow{
+z-index:3;
+width:15px;
+height:15px;
+background-color: #fae419;
+margin:10px;
+}
+
+#yellow:hover{
+border-width: 2px;
+border-style: solid;
+border-color: #fae419;
+}
+
+#red{
+z-index:3;
+width:15px;
+height:15px;
+background-color: #f15d4d;
+margin:10px;	
+}
+
+#red:hover{
+border-width: 2px;
+border-style: solid;
+border-color: #f15d4d;
+}
+
+
+#cover{
+background-color:#7FCAF0;
+z-index:2;
+position: absolute;
+height:100%;
+width:20%;
+}
+
+/* ------------------------blue box-----------------------------------------*/
+#invisible-box{
+}
+
+#yellow-box{
+}
+
+#box-one{
+position: relative;
+width: 30%;
+display: inline-block;
+vertical-align: top;
+left: -110%;
+}
+
+#box-one img{
+position: relative;
+width: 100%;
+}
+
+#box-two{
+position: relative;
+width: 30%;
+display: inline-block;
+vertical-align: top;
+left: -110%;
+
+}
+
+#box-two img{
+position: relative;
+width: 100%;
+}
+
+#box-three{
+position: relative;
+width: 30%;
+display: inline-block;
+vertical-align: top;
+left: -110%;
+
+}
+
+#box-three img{
+position: relative;
+width: 100%;
+}
+
+/* ------------------------red bar-----------------------------------------*/
+#redbar {
+display: none;
+}
+
+h1:after {
+    width:100%;
+    display: block;
+    content: '';
+    position: absolute;
+    height: 25%;
+    background: #f15d4d;
+    animation: movein 5s;
+}
+
+@keyframes movein {
+  from { width: 0}
+  to   { width: 100%;}
+}
+ 
+
+/* ------------------------timer-----------------------------------------*/
+
+#timer{
+font-size:18px;
+font-family: sans-serif;
+font-weight: bolder;
+letter-spacing:2px;
+position: fixed;
+right: 10%;
+bottom: 15%;
+}
+
